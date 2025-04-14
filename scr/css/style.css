@@ -16,6 +16,14 @@ body {
     z-index: 1000;
   }
 
+  footer{
+    background-color: #811010;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+  }
 
   .logo-img {
     width: 300px;
@@ -59,4 +67,14 @@ body {
   h1{
     padding: 10px 10px;
     text-align: center;
+  }
+
+
+
+  .esquerda{
+    font-size: large;
+  }
+
+  .direita{
+    font-size: large;
   }
