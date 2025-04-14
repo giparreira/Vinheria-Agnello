@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: "Newsreader",serif;
+    background-color: rgb(255, 250, 240);
+  }
+  
+  header {
+    background-color: #811010;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  footer{
+    background-color: #811010;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+
+  }
+
+  .logo-img {
+    width: 300px;
+    height: auto;
+  }
+
+  .logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #000000;
+  }
+
+  .banner{
+    text-align: center;
+    overflow: visible;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    padding: 5px 0px;
+
+  }
+  
+  
+  .banner-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  h2{
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  h1{
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+
+
+  .esquerda{
+    font-size: large;
+  }
+
+  .direita{
+    font-size: large;
+  }
