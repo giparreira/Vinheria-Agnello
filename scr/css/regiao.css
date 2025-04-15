@@ -1,0 +1,22 @@
+.texto-imagem {
+    display: flex; /* Alinha os itens horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Garante que os itens ocupem os lados opostos */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    margin-bottom: 20px; 
+    padding: 40px;
+}
+
+.texto-imagem img {
+    width: 300px; /* Ajuste o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* (Opcional) Bordas arredondadas */
+    flex-shrink: 0; /* Garante que a imagem não encolha */
+}
+
+.texto-imagem h3 {
+    font-size: 20px; /* Ajuste o tamanho do texto */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: left; /* Garante que o texto fique alinhado à esquerda */
+    flex: 1; /* Faz o texto ocupar o espaço restante */
+}
