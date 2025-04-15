@@ -84,3 +84,36 @@ body {
   .direita{
     font-size: large;
   }
+
+/* Estilos específicos para a página Sobre Nós */
+.sobre-nos {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Newsreader', serif;
+  line-height: 1.6;
+}
+
+.sobre-nos h1, .sobre-nos h2 {
+  color: #7a1e1e;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+.sobre-nos ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.sobre-nos table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.sobre-nos table, .sobre-nos th, .sobre-nos td {
+  border: 1px solid #aaa;
+  padding: 8px;
+  text-align: left;
+}
