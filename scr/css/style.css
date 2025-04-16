@@ -72,8 +72,8 @@ body {
     text-align: center;
   }
 
-  h1{
-    padding: 10px 10px;
+  h1, h3{
+    padding: 20px 30px;
     text-align: center;
   }
 
@@ -81,21 +81,28 @@ body {
     font-size: large;
   }
 
+  /* Estilos específicos para a página Início, parte das novidades */
 
   .novidades {
-    padding: 40px 20px;
+    padding: 0px 0px;
     text-align: center;
+    
   }
   
   .novidades h2 {
+    margin-left: 500px;
+    margin-right: 500px;
     font-size: 2em;
     margin-bottom: 20px;
+    background-color: #811010;
+    color: rgb(255, 250, 240);
+    border-radius: 10px;
   }
   
   .vinhos-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
     flex-wrap: wrap;
   }
   
@@ -103,7 +110,7 @@ body {
     width: 250px;
   }
   
-  .vinho-img {
+  .vinho-img, .vinho-img1 {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -112,6 +119,13 @@ body {
   
   .vinho-img img {
     width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .vinho-img1 img {
+    width: 97%;
     height: auto;
     display: block;
     transition: transform 0.3s ease;
@@ -133,11 +147,20 @@ body {
     transition: opacity 0.3s ease;
   }
   
+  
   .vinho-img:hover img {
     transform: scale(1.05);
   }
   
   .vinho-img:hover .overlay {
+    opacity: 1;
+  }
+
+  .vinho-img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  .vinho-img1:hover .overlay {
     opacity: 1;
   }
   
