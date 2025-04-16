@@ -70,9 +70,11 @@ body {
   h2{
     padding: 10px 10px;
     text-align: center;
+    color: #7a1e1e;
   }
 
   h1{
+    color: #7a1e1e;
     padding: 20px 30px;
     text-align: center;
   }
@@ -96,13 +98,14 @@ body {
   }
   
   .novidades h2 {
-    margin-left: 500px;
-    margin-right: 500px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    max-width: 500px;
     font-size: 2em;
-    margin-bottom: 20px;
     background-color: #811010;
     color: rgb(255, 250, 240);
     border-radius: 10px;
+    text-align: center;
   }
   
   .vinhos-container {
@@ -174,10 +177,20 @@ body {
     margin-top: 10px;
     font-weight: bold;
     font-size: 1em;
+    color: #7a1e1e;
   }
   
+    /* Estilos específicos para a página Início, parte do vídeo */
 
+  .video-container{
+    text-align: center;
+  }
 
+  .legenda-video{
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+  }
 
 /* Estilos específicos para a página Sobre Nós */
 .sobre-nos {
