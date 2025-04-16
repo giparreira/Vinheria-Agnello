@@ -84,14 +84,3 @@ body {
   .direita{
     font-size: large;
   }
-  .textoTinto, .textoBranco, .textoRose, .textoEspumante, .textoLicoroso {
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-  .imgVinhoTinto, .imgVinhoBranco, .imgVinhoRose, .imgEspumante, .imgVinhoLicoroso {
-    border-radius: 15px;
-    display: block;
-    margin: 0 auto;
-    width: 400px;
-  }
