@@ -43,3 +43,11 @@ Durante o desenvolvimento, utilizamos diversos recursos do HTML e CSS, como:
 ## ✅ Conclusão
 
 Este projeto proporcionou uma ótima oportunidade para praticarmos os fundamentos do desenvolvimento front-end, unindo estrutura, estilo e interatividade. A temática da vinheria tornou o processo ainda mais interessante e prazeroso, possibilitando a criação de um conteúdo rico e visualmente agradável.
+
+## Links de pesquisa
+
+Regiões: https://www.vmvinhos.com.br/principais-regioes-produtoras-de-vinho-no-mundo
+
+Tipos : https://www.vmvinhos.com.br/tipos-de-vinho
+
+Harmonizações: https://www.wine.com.br/winepedia/harmonizacao-de-vinhos/?srsltid=AfmBOop2RzIcrnb61OMQScmmxZabYziPKKrKe0JLmJ65-fAzwheYK8_W
