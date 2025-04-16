@@ -25,3 +25,31 @@
     flex: 1; 
     font-family: "Newsreader",serif;
 }
+
+  .lista-regiao .lista-texto {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .lista-regiao .lista-texto li a {
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .lista-regiao .lista-texto li a:hover {
+    background-color: #b30000;
+    color: #020101;
+  }
+
+    body {
+    scroll-behavior: smooth;
+  }

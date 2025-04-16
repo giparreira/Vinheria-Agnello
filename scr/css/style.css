@@ -1,5 +1,6 @@
 /* Estilos específicos para a página Início */
 
+
 body {
     margin: 0;
     font-family: "Newsreader",serif;
@@ -80,10 +81,10 @@ body {
   }
 
   .texto-inicio{
-    font-size: 22px;
+    margin: 10px auto;
+    max-width: 1300px;
+    font-size: 1.3em;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px
   }
 
   .esquerda, .direita {
@@ -101,7 +102,7 @@ body {
     margin: 20px auto;
     padding: 10px 20px;
     max-width: 500px;
-    font-size: 2em;
+    font-size: 1.8em;
     background-color: #811010;
     color: rgb(255, 250, 240);
     border-radius: 10px;
@@ -245,3 +246,4 @@ body {
   margin: 0 auto;
   width: 400px;
 }
+
