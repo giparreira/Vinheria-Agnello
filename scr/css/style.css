@@ -72,9 +72,16 @@ body {
     text-align: center;
   }
 
-  h1, h3{
+  h1{
     padding: 20px 30px;
     text-align: center;
+  }
+
+  .texto-inicio{
+    font-size: 22px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px
   }
 
   .esquerda, .direita {
@@ -86,7 +93,6 @@ body {
   .novidades {
     padding: 0px 0px;
     text-align: center;
-    
   }
   
   .novidades h2 {
