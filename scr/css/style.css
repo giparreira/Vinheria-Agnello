@@ -77,15 +77,78 @@ body {
     text-align: center;
   }
 
-
-
-  .esquerda{
+  .esquerda, .direita {
     font-size: large;
   }
 
-  .direita{
-    font-size: large;
+
+  .novidades {
+    padding: 40px 20px;
+    text-align: center;
   }
+  
+  .novidades h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .vinhos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .vinho {
+    width: 250px;
+  }
+  
+  .vinho-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .vinho-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .vinho-img:hover img {
+    transform: scale(1.05);
+  }
+  
+  .vinho-img:hover .overlay {
+    opacity: 1;
+  }
+  
+  .vinho-legenda {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
+
+
 
 /* Estilos específicos para a página Sobre Nós */
 .sobre-nos {
