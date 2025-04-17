@@ -53,3 +53,7 @@
     body {
     scroll-behavior: smooth;
   }
+
+.regiao-container{
+  background-color: rgb(194, 174, 150);
+}
