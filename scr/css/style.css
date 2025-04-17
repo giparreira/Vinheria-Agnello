@@ -248,7 +248,7 @@ body {
 }
 
 /*Estilos específicos para a página Harmonizacoes*/
-.imgCarneVermelha {
+.imgCarneVermelha, .imgCarneBranca, .imgMassasLeves, .imgMassasVermelhas {
   border-radius: 15px;
   display: block;
   margin: 0 auto;
