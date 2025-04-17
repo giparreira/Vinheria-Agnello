@@ -247,3 +247,10 @@ body {
   width: 400px;
 }
 
+/*Estilos específicos para a página Harmonizacoes*/
+.imgCarneVermelha, .imgCarneBranca, .imgMassasLeves, .imgMassasVermelhas {
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
