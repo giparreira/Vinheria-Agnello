@@ -260,3 +260,14 @@ body {
 .harmonizacoes-container{
   background-color:antiquewhite;
 }
+
+/*Transformação*/
+.inclinada{
+  transform: skew(0deg);
+  transition: transform 0.5s ease;
+}
+
+.inclinada:hover{
+  transform: skew(1deg);
+  transition: transform 0.5s ease;
+}
