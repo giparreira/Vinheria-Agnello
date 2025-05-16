@@ -260,3 +260,10 @@ body {
 .harmonizacoes-container{
   background-color:antiquewhite;
 }
+
+/* Pseudo elementos */
+p::first-letter {
+    font-size: 2em;
+    color: #7a1e1e;
+    font-weight: bold;
+}
