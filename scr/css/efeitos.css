@@ -1,0 +1,19 @@
+/*Transformação*/
+.inclinada{
+    transform: skew(0deg);
+    transition: transform 0.5s ease;
+  }
+  
+  .inclinada:hover{
+    transform: skew(6deg);
+    transition: transform 0.5s ease;
+  }
+  
+  .aumentada {
+    transform: scale(1); 
+    transition: transform 0.5s ease;
+  }
+  
+  .aumentada:hover {
+    transform: scale(1.2);
+  }
